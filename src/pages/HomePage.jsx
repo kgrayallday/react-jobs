@@ -1,6 +1,7 @@
 import Hero from '../components/Hero.jsx';
 import HomeCards from '../components/HomeCards.jsx';
 import JobListings from '../components/JobsListings.jsx';
+import ViewAllJobs from '../components/ViewAllJobs.jsx';
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Hero />
       <HomeCards />
       <JobListings />
+      <ViewAllJobs />
     </>
   )
 }

@@ -7,12 +7,14 @@ import {
 import HomePage from './pages/HomePage.jsx';
 import MainLayout from './layouts/MainLayout.jsx';
 import JobsPage from './pages/JobsPage.jsx';
+import NotFound from './pages/NotFound.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<MainLayout />}>
       <Route index element={<HomePage />}/>
       <Route path='/jobs' element={<JobsPage />}/>
+      <Route path='*' element={<NotFound/>}/>
     </Route>
   )
 )

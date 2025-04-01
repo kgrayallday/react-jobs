@@ -1,6 +1,8 @@
+import JobListings from '../components/JobListings.jsx';
+
 const JobsPage = () => {
   return (
-    <div>JobsPage</div>
+    <JobListings />
   )
 }
 

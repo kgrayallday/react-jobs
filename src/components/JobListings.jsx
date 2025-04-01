@@ -12,7 +12,7 @@ const JobListings = ( { isHome = false } ) => {
         ? '/api/jobs?_limit=3'
         : '/api/jobs';
       try {
-        const res = await fetch('http://localhost:5000/jobs');
+        const res = await fetch(apiURL);
         const data = await res.json();
         setJobs(data);
       } catch (error) {

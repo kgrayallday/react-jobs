@@ -83,6 +83,20 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "id": "71e8",
+      "title": "Job to Delete",
+      "type": "Full-Time",
+      "location": "Nowhere",
+      "description": "This job should be deleted",
+      "salary": "Under $50K",
+      "company": {
+        "name": "almost gone",
+        "description": "going going ",
+        "contactEmail": "going@gone.com",
+        "contactPhone": ""
+      }
     }
   ]
 }
